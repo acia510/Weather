@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+    margin-top: 20px;
+
+
+}
+
+body {
+    margin-top: 150px;
+    position: fixed;
+    background: #2B81AC;
+    left: 0;
+    right: 0;
+    height: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+h1 {
+    color: white;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+
+div {
+    list-style: none;
+}
+
+h3, p {
+    background-color: revert;
+    font-size: 18px;
+    color: white;
+    margin: 5px;
+    padding: 14px;
+
+}
+p {
+    margin-top: -18px;
+}
+
+.container-1 {
+    font-family: Verdana, Geneva, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 700px;
+
+
+
+}
+
+.flex-1, .flex-2, .flex-3, .flex-4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+
+
+}
+
+.flex-1 div, .flex-2 div, .flex-3 div, .flex-4 div {
+
+    padding: 10px;
+    border: 2px solid white;
+    border-right: 2;
+    border-left: 2;
+    border-top: 2;
+
+}
+
+.box-1 {
+    flex:2;
+    background-color: #39C;
+
+
+}
+.box-2 {
+    flex:1;
+    background-color: #33CCCC;
+
+
+}
+.box-3 {
+    flex:1;
+    background-color: #996699;
+
+
+}
+
+.box-4 {
+    flex:1;
+    background-color: #C24747;
+}
+.box-5 {
+    flex:1;
+    background-color: #E2674A;
+}
+.box-6 {
+    flex:1;
+    background-color: #FFCC66;
+}
+.box-7 {
+    flex:1;
+    background-color: #99CC99;
+}
+
+.box-8 {
+    flex:1;
+    background-color: #669999;
+}
+.box-9 {
+    flex:2;
+    background-color: #CC6699;
+}
+.box-10 {
+    flex:1;
+    background-color: #339966;
+}
+.box-11 {
+    flex:1;
+    background-color: #666699;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+
+
+}
+i {
+    color: white;
+    font-size: 26px;
+
+}
